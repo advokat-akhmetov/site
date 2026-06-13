@@ -23,6 +23,11 @@
 box-sizing:border-box;
 }
 
+html,body{
+max-width:100%;
+overflow-x:hidden;
+}
+
 body{
 margin:0;
 font-family:Arial,sans-serif;
@@ -42,25 +47,19 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 border-bottom:1px solid rgba(212,175,55,.45);
-flex-wrap:wrap;
-gap:20px;
-}
-
-.nav-left{
-display:flex;
-align-items:center;
-gap:34px;
+gap:24px;
 }
 
 .brand{
 display:flex;
 align-items:center;
 gap:22px;
+min-width:280px;
 }
 
 .brand img{
-width:135px;
-height:135px;
+width:125px;
+height:125px;
 object-fit:contain;
 }
 
@@ -79,17 +78,13 @@ font-weight:400;
 margin-top:7px;
 }
 
-.menu{
+.desktop-menu{
 display:flex;
 align-items:center;
-gap:16px;
-overflow-x:auto;
-white-space:nowrap;
-padding-top:15px;
-border-top:1px solid rgba(212,175,55,.25);
+gap:15px;
 }
 
-.menu a{
+.desktop-menu a{
 color:white;
 font-size:15px;
 font-weight:600;
@@ -97,36 +92,56 @@ white-space:nowrap;
 transition:.2s;
 }
 
-.menu a:hover{
+.desktop-menu a:hover{
 color:var(--gold);
 }
 
 .top-actions{
 display:flex;
 align-items:center;
-gap:16px;
+gap:12px;
 }
 
-.phone{
-color:white;
-font-size:17px;
-font-weight:700;
-white-space:nowrap;
-}
-
-.nav-button{
+.nav-button,
+.menu-button{
 background:var(--gold);
 color:var(--navy);
-padding:14px 22px;
+padding:13px 20px;
 border-radius:10px;
 font-weight:700;
 white-space:nowrap;
+border:none;
+cursor:pointer;
+font-size:16px;
+}
+
+.menu-button{
+display:none;
+}
+
+.mobile-menu{
+display:none;
+background:var(--navy);
+border-top:1px solid rgba(212,175,55,.35);
+padding:12px 20px 18px;
+}
+
+.mobile-menu a{
+display:block;
+color:white;
+font-weight:700;
+padding:11px 0;
+border-bottom:1px solid rgba(255,255,255,.12);
+}
+
+.mobile-menu a:hover{
+color:var(--gold);
 }
 
 header{
 background:linear-gradient(135deg,var(--navy),var(--navy-light));
 color:white;
-padding:90px 20px 100px;
+padding:85px 20px 95px;
 text-align:center;
 }
 
@@ -270,58 +285,98 @@ padding:35px 20px;
 font-size:15px;
 }
 
-
-@media(max-width:800px){
-.menu{
+@media(max-width:1250px){
+.desktop-menu{
 display:none;
 }
 
-.nav-left{
-width:100%;
+.menu-button{
+display:inline-block;
+}
 }
 
+@media(max-width:800px){
 .topbar{
-overflow:hidden;
+padding:16px 14px;
+gap:10px;
 }
 
 .brand{
-width:100%;
-}
-.topbar{
-padding:18px 20px;
+min-width:0;
+gap:12px;
 }
 
 .brand img{
-width:95px;
-height:95px;
+width:78px;
+height:78px;
 }
 
 .brand-title{
-font-size:22px;
+font-size:19px;
+line-height:1.15;
 }
 
 .brand-title span{
-font-size:15px;
+font-size:14px;
+margin-top:5px;
 }
 
 .top-actions{
-display:none;
+gap:8px;
+}
+
+.nav-button,
+.menu-button{
+font-size:14px;
+padding:10px 12px;
+border-radius:8px;
 }
 
 header{
-padding:65px 18px 75px;
+padding:55px 18px 65px;
 }
 
 header h1{
-font-size:32px;
+font-size:30px;
 }
 
 .lead{
-font-size:18px;
+font-size:17px;
 }
 
 h2{
-font-size:28px;
+font-size:27px;
+}
+
+section{
+padding:45px 18px;
+}
+
+.card,
+.about{
+padding:24px;
+}
+
+.contact{
+padding:35px 20px;
+}
+
+.contact-list{
+font-size:16px;
+}
+}
+
+@media(max-width:420px){
+.nav-button{
+display:none;
+}
+
+.brand-title{
+font-size:18px;
+}
+
+.brand-title span{
+font-size:13px;
 }
 }
 </style>
@@ -331,11 +386,9 @@ font-size:28px;
 
 <nav class="topbar">
 
-<div class="nav-left">
-
 <div class="brand">
 <a href="index.html">
-<img src="logo.png?v=30" alt="Логотип адвоката Ахметова">
+<img src="logo.png?v=40" alt="Логотип адвоката Ахметова">
 </a>
 
 <div class="brand-title">
@@ -344,7 +397,7 @@ font-size:28px;
 </div>
 </div>
 
-<div class="menu">
+<div class="desktop-menu">
 <a href="index.html">Главная</a>
 <a href="criminal.html">Уголовные дела</a>
 <a href="civil.html">Гражданские споры</a>
@@ -354,15 +407,22 @@ font-size:28px;
 <a href="about.html">Обо мне</a>
 </div>
 
-</div>
-
 <div class="top-actions">
-<a class="nav-button" href="https://wa.me/77756068541" target="_blank">
-WhatsApp
-</a>
+<a class="nav-button" href="https://wa.me/77756068541" target="_blank">WhatsApp</a>
+<button class="menu-button" onclick="toggleMenu()">☰ Меню</button>
 </div>
 
 </nav>
+
+<div id="mobileMenu" class="mobile-menu">
+<a href="index.html">Главная</a>
+<a href="criminal.html">Уголовные дела</a>
+<a href="civil.html">Гражданские споры</a>
+<a href="trademark.html">Товарные знаки</a>
+<a href="procurement.html">Госзакупки</a>
+<a href="china-investors.html">Инвесторы КНР</a>
+<a href="about.html">Обо мне</a>
+</div>
 
 <header>
 
@@ -510,6 +570,17 @@ WhatsApp
 <footer>
 © Адвокат Ахметов Канат Темергазыевич · advokat-akhmetov.kz · advokat.kz01@gmail.com
 </footer>
+
+<script>
+function toggleMenu(){
+var menu=document.getElementById("mobileMenu");
+if(menu.style.display==="block"){
+menu.style.display="none";
+}else{
+menu.style.display="block";
+}
+}
+</script>
 
 </body>
 </html>
