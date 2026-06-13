@@ -52,4 +52,8 @@
 <loc>https://advokat-akhmetov.github.io/site/cases.html</loc>
 <priority>0.8</priority>
 </url>
+<url>
+<loc>https://advokat-akhmetov.github.io/site/reviews.html</loc>
+<priority>0.8</priority>
+</url>
 </urlset>
