@@ -1,407 +1,498 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Адвокат Ахметов Канат Темергазыевич | Защита, суды, бизнес и инвестиции</title>
-  <meta name="description" content="Адвокат Ахметов Канат Темергазыевич. Защита по уголовным делам, представительство в судах, сопровождение бизнеса, инвесторов, госзакупок, строительства, СЭЗ и интеллектуальной собственности в Казахстане.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    :root {
-      --navy: #071a33;
-      --navy-light: #102f57;
-      --gold: #d4af37;
-      --white: #ffffff;
-      --text: #111827;
-      --muted: #6b7280;
-      --bg: #f4f5f7;
-    }
+<title>Адвокат Ахметов Канат Темергазыевич | Защита, суды, бизнес и инвестиции</title>
 
-    * {
-      box-sizing: border-box;
-    }
+<meta name="description" content="Адвокат Ахметов Канат Темергазыевич. Уголовные дела, гражданские споры, товарные знаки, интеллектуальная собственность, государственные закупки, сопровождение бизнеса и инвесторов в Казахстане.">
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: var(--text);
-      background: var(--bg);
-      line-height: 1.6;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    .topbar {
-      background: var(--navy);
-      padding: 24px 56px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid rgba(212, 175, 55, 0.45);
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 22px;
-    }
-
-.brand img {
-    width: 190px;
-    height: 190px;
-    object-fit: contain;
+<style>
+:root{
+--navy:#071a33;
+--navy-light:#102f57;
+--gold:#d4af37;
+--white:#ffffff;
+--text:#111827;
+--muted:#6b7280;
+--bg:#f4f5f7;
 }
-    .brand-title {
-      color: var(--white);
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 1.15;
-    }
-    .brand-title span {
-      display: block;
-      color: var(--gold);
-      font-size: 21px;
-      font-weight: 400;
-      margin-top: 8px;
-    }
 
-    .top-actions {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
+*{
+box-sizing:border-box;
+}
 
-    .top-actions a {
-      color: var(--white);
-      font-weight: 600;
-    }
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.7;
+}
 
-    .nav-button {
-      background: var(--gold);
-      color: var(--navy) !important;
-      padding: 14px 22px;
-      border-radius: 10px;
-      font-weight: 700;
-    }
+a{
+text-decoration:none;
+}
 
-    header {
-      background: linear-gradient(135deg, var(--navy), var(--navy-light));
-      color: var(--white);
-      padding: 85px 20px 95px;
-      text-align: center;
-    }
+.topbar{
+background:var(--navy);
+padding:22px 48px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+border-bottom:1px solid rgba(212,175,55,.45);
+}
 
-    header h1 {
-      font-size: 48px;
-      line-height: 1.15;
-      margin: 0 0 22px;
-    }
+.nav-left{
+display:flex;
+align-items:center;
+gap:34px;
+}
 
-    .lead {
-      font-size: 22px;
-      max-width: 1050px;
-      margin: 0 auto 34px;
-    }
+.brand{
+display:flex;
+align-items:center;
+gap:22px;
+}
 
-    .buttons a {
-      display: inline-block;
-      margin: 8px;
-      padding: 15px 26px;
-      border-radius: 10px;
-      font-weight: 700;
-    }
+.brand img{
+width:135px;
+height:135px;
+object-fit:contain;
+}
 
-    .gold {
-      background: var(--gold);
-      color: var(--navy);
-    }
+.brand-title{
+color:white;
+font-size:28px;
+font-weight:700;
+line-height:1.15;
+}
 
-    .white {
-      background: var(--white);
-      color: var(--navy);
-    }
+.brand-title span{
+display:block;
+color:var(--gold);
+font-size:19px;
+font-weight:400;
+margin-top:7px;
+}
 
-    section {
-      max-width: 1180px;
-      margin: auto;
-      padding: 60px 20px;
-    }
+.menu{
+display:flex;
+align-items:center;
+gap:16px;
+}
 
-    h2 {
-      font-size: 34px;
-      color: var(--navy);
-      margin: 0 0 28px;
-    }
+.menu a{
+color:white;
+font-size:15px;
+font-weight:600;
+white-space:nowrap;
+transition:.2s;
+}
 
-    .section-note {
-      color: var(--muted);
-      max-width: 900px;
-      margin-top: -12px;
-      margin-bottom: 32px;
-      font-size: 18px;
-    }
+.menu a:hover{
+color:var(--gold);
+}
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-      gap: 22px;
-    }
+.top-actions{
+display:flex;
+align-items:center;
+gap:16px;
+}
 
-    .card {
-      background: var(--white);
-      padding: 26px;
-      border-radius: 16px;
-      box-shadow: 0 10px 28px rgba(0,0,0,0.08);
-      border-top: 4px solid var(--gold);
-    }
+.phone{
+color:white;
+font-size:17px;
+font-weight:700;
+white-space:nowrap;
+}
 
-    .card h3 {
-      margin-top: 0;
-      color: var(--navy);
-      font-size: 21px;
-    }
+.nav-button{
+background:var(--gold);
+color:var(--navy);
+padding:14px 22px;
+border-radius:10px;
+font-weight:700;
+white-space:nowrap;
+}
 
-    .about {
-      background: var(--white);
-      border-radius: 18px;
-      padding: 36px;
-      box-shadow: 0 10px 28px rgba(0,0,0,0.08);
-    }
+header{
+background:linear-gradient(135deg,var(--navy),var(--navy-light));
+color:white;
+padding:90px 20px 100px;
+text-align:center;
+}
 
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 18px;
-      margin-top: 28px;
-    }
+header h1{
+font-size:48px;
+line-height:1.15;
+margin:0 0 22px;
+}
 
-    .stat {
-      background: var(--navy);
-      color: var(--white);
-      padding: 24px;
-      border-radius: 14px;
-      text-align: center;
-    }
+.lead{
+font-size:22px;
+max-width:1050px;
+margin:0 auto 35px;
+}
 
-    .stat strong {
-      display: block;
-      font-size: 32px;
-      color: var(--gold);
-      margin-bottom: 4px;
-    }
+.buttons{
+margin-top:30px;
+}
 
-    .contact {
-      background: linear-gradient(135deg, var(--navy), var(--navy-light));
-      color: var(--white);
-      border-radius: 18px;
-      padding: 44px 28px;
-      text-align: center;
-    }
+.buttons a{
+display:inline-block;
+margin:8px;
+padding:15px 26px;
+border-radius:10px;
+font-weight:700;
+}
 
-    .contact h2 {
-      color: var(--white);
-    }
+.gold{
+background:var(--gold);
+color:var(--navy);
+}
 
-    .contact-list {
-      margin: 25px auto 10px;
-      max-width: 700px;
-      display: grid;
-      gap: 12px;
-      font-size: 18px;
-    }
+.white{
+background:white;
+color:var(--navy);
+}
 
-    .contact-list a {
-      color: var(--gold);
-      font-weight: 700;
-    }
+section{
+max-width:1180px;
+margin:auto;
+padding:60px 20px;
+}
 
-    footer {
-      background: var(--navy);
-      color: var(--white);
-      text-align: center;
-      padding: 35px 20px;
-      font-size: 15px;
-    }
+h2{
+font-size:34px;
+color:var(--navy);
+margin:0 0 25px;
+}
 
-    @media (max-width: 800px) {
-      .topbar {
-        padding: 18px 20px;
-        align-items: flex-start;
-        gap: 16px;
-      }
+.section-note{
+color:var(--muted);
+max-width:920px;
+font-size:18px;
+margin:-10px 0 32px;
+}
 
-      .brand img {
-        width: 88px;
-        height: 88px;
-      }
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+gap:22px;
+}
 
-      .brand-title {
-        font-size: 22px;
-      }
+.card{
+background:white;
+padding:26px;
+border-radius:16px;
+box-shadow:0 10px 28px rgba(0,0,0,.08);
+border-top:4px solid var(--gold);
+}
 
-      .brand-title span {
-        font-size: 16px;
-      }
+.card h3{
+margin-top:0;
+color:var(--navy);
+font-size:21px;
+}
 
-      .top-actions {
-        display: none;
-      }
+.card a{
+color:var(--navy);
+font-weight:700;
+}
 
-      header {
-        padding: 60px 18px 70px;
-      }
+.about{
+background:white;
+border-radius:18px;
+padding:36px;
+box-shadow:0 10px 28px rgba(0,0,0,.08);
+}
 
-      header h1 {
-        font-size: 32px;
-      }
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:18px;
+margin-top:28px;
+}
 
-      .lead {
-        font-size: 18px;
-      }
+.stat{
+background:var(--navy);
+color:white;
+padding:24px;
+border-radius:14px;
+text-align:center;
+}
 
-      h2 {
-        font-size: 28px;
-      }
-    }
-  </style>
+.stat strong{
+display:block;
+font-size:32px;
+color:var(--gold);
+margin-bottom:4px;
+}
+
+.contact{
+background:linear-gradient(135deg,var(--navy),var(--navy-light));
+color:white;
+border-radius:18px;
+padding:45px 28px;
+text-align:center;
+}
+
+.contact h2{
+color:white;
+}
+
+.contact-list{
+margin:25px auto 10px;
+max-width:700px;
+display:grid;
+gap:12px;
+font-size:18px;
+}
+
+.contact-list a{
+color:var(--gold);
+font-weight:700;
+}
+
+footer{
+background:var(--navy);
+color:white;
+text-align:center;
+padding:35px 20px;
+font-size:15px;
+}
+
+@media(max-width:1200px){
+.menu{
+display:none;
+}
+}
+
+@media(max-width:800px){
+.topbar{
+padding:18px 20px;
+}
+
+.brand img{
+width:95px;
+height:95px;
+}
+
+.brand-title{
+font-size:22px;
+}
+
+.brand-title span{
+font-size:15px;
+}
+
+.top-actions{
+display:none;
+}
+
+header{
+padding:65px 18px 75px;
+}
+
+header h1{
+font-size:32px;
+}
+
+.lead{
+font-size:18px;
+}
+
+h2{
+font-size:28px;
+}
+}
+</style>
 </head>
 
 <body>
 
-  <nav class="topbar">
-    <div class="brand">
-      <img src="logo.png?v=10" alt="Логотип адвоката Ахметова">
-      <div class="brand-title">
-        Адвокат Ахметов
-        <span>Канат Темергазыевич</span>
-      </div>
-    </div>
+<nav class="topbar">
 
-    <div class="top-actions">
-      <a href="tel:+77756068541">+7 775 606 85 41</a>
-      <a class="nav-button" href="https://wa.me/77756068541">WhatsApp</a>
-    </div>
-  </nav>
+<div class="nav-left">
 
-  <header>
-    <h1>Адвокат Ахметов Канат Темергазыевич</h1>
-    <p class="lead">
-      Судебная защита, уголовные дела, гражданские споры и юридическое сопровождение
-      бизнеса, инвесторов, строительных и производственных проектов в Казахстане.
-    </p>
+<div class="brand">
+<a href="index.html">
+<img src="logo.png?v=30" alt="Логотип адвоката Ахметова">
+</a>
 
-    <div class="buttons">
-      <a class="gold" href="tel:+77756068541">Позвонить</a>
-      <a class="white" href="https://wa.me/77756068541">Написать в WhatsApp</a>
-    </div>
-  </header>
+<div class="brand-title">
+Адвокат Ахметов
+<span>Канат Темергазыевич</span>
+</div>
+</div>
 
-  <section>
-    <h2>Ключевые направления</h2>
-    <p class="section-note">
-      Практика объединяет адвокатскую защиту, представительство в судах,
-      сопровождение предпринимателей, инвестиционных проектов и взаимодействие с государственными органами.
-    </p>
+<div class="menu">
+<a href="index.html">Главная</a>
+<a href="criminal.html">Уголовные дела</a>
+<a href="civil.html">Гражданские споры</a>
+<a href="trademark.html">Товарные знаки</a>
+<a href="procurement.html">Госзакупки</a>
+<a href="china-investors.html">Инвесторы КНР</a>
+<a href="about.html">Обо мне</a>
+</div>
 
-    <div class="grid">
-      <div class="card">
-        <h3>Уголовные дела</h3>
-        <p>Защита на стадии досудебного расследования и в суде. Анализ материалов дела, подготовка ходатайств, жалоб, апелляций и кассационных обращений.</p>
-      </div>
+</div>
 
-      <div class="card">
-        <h3>Гражданские споры</h3>
-        <p>Представительство по договорным, имущественным, земельным, семейным и иным гражданско-правовым спорам.</p>
-      </div>
+<div class="top-actions">
+<a class="phone" href="tel:+77756068541">+7 775 606 85 41</a>
+<a class="nav-button" href="https://wa.me/77756068541" target="_blank">WhatsApp</a>
+</div>
 
-      <div class="card">
-        <h3>Интеллектуальная собственность</h3>
-        <p>Защита авторских прав, товарных знаков, коммерческих обозначений, деловой репутации и иных нематериальных активов.</p>
-      </div>
+</nav>
 
-      <div class="card">
-        <h3>Товарные знаки</h3>
-        <p>Правовой анализ обозначений, подготовка заявок, сопровождение регистрации и защита интересов при возникновении споров.</p>
-      </div>
+<header>
 
-      <div class="card">
-        <h3>Государственные закупки</h3>
-        <p>Защита поставщиков, подготовка жалоб, сопровождение споров по итогам закупок, договорная и претензионная работа.</p>
-      </div>
+<h1>Адвокат Ахметов Канат Темергазыевич</h1>
 
-      <div class="card">
-        <h3>Сопровождение бизнеса</h3>
-        <p>Юридическая поддержка медицинских центров, производственных компаний, подрядчиков, поставщиков и строительных организаций.</p>
-      </div>
+<p class="lead">
+Судебная защита, уголовные дела, гражданские споры и юридическое сопровождение бизнеса,
+инвесторов, строительных и производственных проектов в Казахстане.
+</p>
 
-      <div class="card">
-        <h3>Инвесторы из Китая</h3>
-        <p>Сопровождение иностранных инвесторов: регистрация компаний, договоры, разрешительная документация и взаимодействие с партнёрами и госорганами.</p>
-      </div>
+<div class="buttons">
+<a class="gold" href="tel:+77756068541">Позвонить</a>
+<a class="white" href="https://wa.me/77756068541" target="_blank">Написать в WhatsApp</a>
+</div>
 
-      <div class="card">
-        <h3>Проекты в СЭЗ</h3>
-        <p>Правовое сопровождение проектов в специальных экономических зонах: структура участия, локализация, разрешения и правовые риски.</p>
-      </div>
+</header>
 
-      <div class="card">
-        <h3>Legal Opinion</h3>
-        <p>Юридические заключения по бизнес-, строительным и инвестиционным проектам с анализом АПЗ, технических условий и разрешительной документации.</p>
-      </div>
-    </div>
-  </section>
+<section>
 
-  <section>
-    <div class="about">
-      <h2>Профессиональный опыт</h2>
-      <p>
-        Ахметов Канат Темергазыевич — лицензированный адвокат Республики Казахстан.
-        Практический опыт включает адвокатскую деятельность, работу в органах юстиции,
-        регистрацию прав, исполнительное производство, государственные закупки и сопровождение бизнеса.
-      </p>
+<h2>Ключевые направления</h2>
 
-      <div class="stats">
-        <div class="stat">
-          <strong>13 лет</strong>
-          адвокатской практики
-        </div>
+<p class="section-note">
+Юридическая практика объединяет адвокатскую защиту, судебное представительство,
+интеллектуальную собственность, государственные закупки, сопровождение бизнеса и инвестиционных проектов.
+</p>
 
-        <div class="stat">
-          <strong>9 лет</strong>
-          государственной службы
-        </div>
+<div class="grid">
 
-        <div class="stat">
-          <strong>№15001031</strong>
-          лицензия адвоката
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="card">
+<h3>Уголовные дела</h3>
+<p>
+Защита на стадии досудебного расследования и в суде. Анализ материалов дела, ходатайства, жалобы, апелляции и кассации.
+</p>
+<a href="criminal.html">Подробнее →</a>
+</div>
 
-  <section>
-    <div class="contact">
-      <h2>Связаться с адвокатом</h2>
-      <p>Обратитесь для консультации по делу, бизнес-проекту, строительству, инвестициям или юридическому заключению.</p>
+<div class="card">
+<h3>Гражданские споры</h3>
+<p>
+Представительство по договорным, имущественным, земельным, семейным и корпоративным спорам.
+</p>
+<a href="civil.html">Подробнее →</a>
+</div>
 
-      <div class="contact-list">
-        <div>Телефон / WhatsApp: <a href="tel:+77756068541">+7 775 606 85 41</a></div>
-        <div>Email: <a href="mailto:advokat.kz01@gmail.com">advokat.kz01@gmail.com</a></div>
-        <div>Instagram: <a href="https://www.instagram.com/advokat.kz01" target="_blank">advokat.kz01</a></div>
-      </div>
+<div class="card">
+<h3>Товарные знаки и ИС</h3>
+<p>
+Регистрация товарных знаков, защита брендов, авторских прав, коммерческих обозначений и деловой репутации.
+</p>
+<a href="trademark.html">Подробнее →</a>
+</div>
 
-      <div class="buttons">
-        <a class="gold" href="tel:+77756068541">Позвонить</a>
-        <a class="white" href="https://wa.me/77756068541">WhatsApp</a>
-      </div>
-    </div>
-  </section>
+<div class="card">
+<h3>Государственные закупки</h3>
+<p>
+Защита поставщиков, подготовка жалоб, претензий, сопровождение договоров и судебных споров.
+</p>
+<a href="procurement.html">Подробнее →</a>
+</div>
 
-  <footer>
-    © Адвокат Ахметов Канат Темергазыевич · advokat-akhmetov.kz · Email: advokat.kz01@gmail.com
-  </footer>
+<div class="card">
+<h3>Китайские инвесторы</h3>
+<p>
+Сопровождение инвесторов из Китая: регистрация компаний, договоры, СЭЗ, строительство, производство и разрешения.
+</p>
+<a href="china-investors.html">Подробнее →</a>
+</div>
+
+<div class="card">
+<h3>Legal Opinion</h3>
+<p>
+Юридические заключения по инвестиционным, строительным и производственным проектам с анализом рисков.
+</p>
+<a href="china-investors.html">Подробнее →</a>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="about">
+
+<h2>Профессиональный опыт</h2>
+
+<p>
+Ахметов Канат Темергазыевич — лицензированный адвокат Республики Казахстан.
+Практический опыт включает адвокатскую деятельность, работу в органах юстиции,
+регистрацию прав, исполнительное производство, государственные закупки и сопровождение бизнеса.
+</p>
+
+<div class="stats">
+
+<div class="stat">
+<strong>13 лет</strong>
+адвокатской практики
+</div>
+
+<div class="stat">
+<strong>9 лет</strong>
+государственной службы
+</div>
+
+<div class="stat">
+<strong>№15001031</strong>
+лицензия адвоката
+</div>
+
+</div>
+
+<div class="buttons">
+<a class="gold" href="about.html">Подробнее о профессиональном опыте</a>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="contact">
+
+<h2>Связаться с адвокатом</h2>
+
+<p>
+Для консультации по делу, бизнес-проекту, строительству, инвестициям, государственным закупкам или юридическому заключению.
+</p>
+
+<div class="contact-list">
+<div>Телефон / WhatsApp: <a href="tel:+77756068541">+7 775 606 85 41</a></div>
+<div>Email: <a href="mailto:advokat.kz01@gmail.com">advokat.kz01@gmail.com</a></div>
+<div>Instagram: <a href="https://www.instagram.com/advokat.kz01" target="_blank">@advokat.kz01</a></div>
+</div>
+
+<div class="buttons">
+<a class="gold" href="tel:+77756068541">Позвонить</a>
+<a class="white" href="https://wa.me/77756068541" target="_blank">WhatsApp</a>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© Адвокат Ахметов Канат Темергазыевич · advokat-akhmetov.kz · advokat.kz01@gmail.com
+</footer>
 
 </body>
 </html>
