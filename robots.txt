@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://advokat-akhmetov.github.io/site/sitemap.xml
