@@ -96,5 +96,12 @@
         <loc>https://advokat-akhmetov.github.io/site/skolko-stoit-registraciya-tovarnogo-znaka-kazakhstan.html</loc>
         <priority>0.8</priority>
     </url>
-
+    
+    <url>
+       <loc>https://advokat-akhmetov.github.io/site/case-1258-days.html</loc>
+       <lastmod>2026-06-24</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.90</priority>
+   </url>
+    
 </urlset>
