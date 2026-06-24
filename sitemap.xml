@@ -4,140 +4,184 @@
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/criminal.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.95</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/case-1258-days.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.95</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/cases.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.90</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/china-investors.html</loc>
-        <lastmod>2026-06-24</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2026-06-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+
+    <!-- Китайский раздел -->
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/zh-cn.html</loc>
+        <lastmod>2026-06-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/china-fraud.html</loc>
+        <lastmod>2026-06-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.92</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/china-debt-recovery.html</loc>
+        <lastmod>2026-06-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.92</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/china-equipment-disputes.html</loc>
+        <lastmod>2026-06-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.92</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/china-contract-disputes.html</loc>
+        <lastmod>2026-06-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/china-deportation-risk.html</loc>
+        <lastmod>2026-06-25</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.90</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/civil.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.90</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/prices.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.90</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/procurement.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.90</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/trademark.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.90</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/about.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/articles.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/reviews.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/apellyaciya-i-kassaciya-po-ugolovnym-delam-kazakhstan.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/predprinimatelskiy-risk-ili-moshennichestvo.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/zaderzhanie-kazakhstan.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/registraciya-tovarnogo-znaka-kazakhstan.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/reestr-nedobrosovestnyh-postavshchikov-kazakhstan.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/vzyskanie-dolga-kazakhstan.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/otkrytie-biznesa-s-investorami-iz-kitaya-kazakhstan.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/skolko-stoit-registraciya-tovarnogo-znaka-kazakhstan.html</loc>
-        <lastmod>2026-06-24</lastmod>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
