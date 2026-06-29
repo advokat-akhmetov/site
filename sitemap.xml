@@ -200,4 +200,25 @@
        <priority>0.85</priority>
     </url>
 
+    <url>
+       <loc>https://advokat-akhmetov.github.io/site/viza-ili-moshennichestvo-kazakhstan.html</loc>
+       <lastmod>2026-06-29</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.85</priority>
+   </url>
+
+   <url>
+      <loc>https://advokat-akhmetov.github.io/site/visa-or-fraud-kazakhstan.html</loc>
+      <lastmod>2026-06-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+   </url>
+
+   <url>
+      <loc>https://advokat-akhmetov.github.io/site/qianzheng-zhapian-hasakesitan.html</loc>
+      <lastmod>2026-06-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+ </url>
+
 </urlset>
