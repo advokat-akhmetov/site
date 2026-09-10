@@ -460,6 +460,118 @@ font-size:18px;
 font-size:13px;
 }
 }
+/* =========================================
+   ГЕОГРАФИЯ ЮРИДИЧЕСКОЙ ПРАКТИКИ
+========================================= */
+
+.practice-geography {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.practice-geography-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 36px;
+}
+
+.practice-geography-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 280px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  border-top: 5px solid #d8b131;
+  box-shadow: 0 14px 30px rgba(7, 28, 54, 0.08);
+}
+
+.practice-geography-card h3 {
+  margin: 0 0 18px;
+  color: #071c36;
+  font-size: 26px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.practice-geography-card p {
+  margin: 0 0 26px;
+  color: #111111;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.practice-geography-card a {
+  margin-top: auto;
+  color: #071c36;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.practice-geography-card a:hover {
+  color: #d8b131;
+}
+
+.practice-geography-card a:visited {
+  color: #071c36;
+}
+
+
+/* ПЛАНШЕТ */
+@media (max-width: 1000px) {
+
+  .practice-geography-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* МОБИЛЬНАЯ ВЕРСИЯ */
+@media (max-width: 650px) {
+
+  .practice-geography {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .practice-geography h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .practice-geography-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 26px;
+  }
+
+  .practice-geography-card {
+    min-height: auto;
+    padding: 24px 20px;
+    border-radius: 16px;
+  }
+
+  .practice-geography-card h3 {
+    font-size: 23px;
+  }
+
+  .practice-geography-card p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .practice-geography-card a {
+    display: inline-block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 16px;
+    color: #071c36;
+  }
+
+}
 </style>
 </head>
 
