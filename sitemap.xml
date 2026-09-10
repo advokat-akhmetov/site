@@ -276,5 +276,55 @@
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
 </url>
-    
+
+    <!-- Юридическая помощь по регионам Казахстана -->
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/kazakhstan.html</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/astana.html</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/almaty.html</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/shymkent.html</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/atyrau.html</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/mangystau.html</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://advokat-akhmetov.github.io/site/abay.html</loc>
+        <lastmod>2026-09-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>    
 </urlset>
