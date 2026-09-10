@@ -468,15 +468,20 @@ font-size:13px;
   padding-top: 70px;
   padding-bottom: 70px;
 }
-
-.practice-geography-grid {
+.practice-geography__intro {
+  color: #6b7280;
+  max-width: 920px;
+  font-size: 18px;
+  margin: -10px 0 32px;
+}
+.practice-geography__grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
   margin-top: 36px;
 }
 
-.practice-geography-card {
+.practice-geography__card {
   display: flex;
   flex-direction: column;
   min-height: 280px;
@@ -487,7 +492,7 @@ font-size:13px;
   box-shadow: 0 14px 30px rgba(7, 28, 54, 0.08);
 }
 
-.practice-geography-card h3 {
+.practice-geography__card h3 {
   margin: 0 0 18px;
   color: #071c36;
   font-size: 26px;
@@ -495,14 +500,14 @@ font-size:13px;
   font-weight: 700;
 }
 
-.practice-geography-card p {
+.practice-geography__card p {
   margin: 0 0 26px;
   color: #111111;
   font-size: 18px;
   line-height: 1.65;
 }
 
-.practice-geography-card a {
+.practice-geography__card a {
   margin-top: auto;
   color: #071c36;
   font-size: 17px;
@@ -510,11 +515,11 @@ font-size:13px;
   text-decoration: none;
 }
 
-.practice-geography-card a:hover {
+.practice-geography__card a:hover {
   color: #d8b131;
 }
 
-.practice-geography-card a:visited {
+.practice-geography__card a:visited {
   color: #071c36;
 }
 
@@ -522,7 +527,7 @@ font-size:13px;
 /* ПЛАНШЕТ */
 @media (max-width: 1000px) {
 
-  .practice-geography-grid {
+  .practice-geography__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -542,28 +547,28 @@ font-size:13px;
     line-height: 1.2;
   }
 
-  .practice-geography-grid {
+  .practice-geography__grid {
     grid-template-columns: 1fr;
     gap: 18px;
     margin-top: 26px;
   }
 
-  .practice-geography-card {
+  .practice-geography__card {
     min-height: auto;
     padding: 24px 20px;
     border-radius: 16px;
   }
 
-  .practice-geography-card h3 {
+  .practice-geography__card h3 {
     font-size: 23px;
   }
 
-  .practice-geography-card p {
+  .practice-geography__card p {
     font-size: 16px;
     line-height: 1.6;
   }
 
-  .practice-geography-card a {
+  .practice-geography__card a {
     display: inline-block;
     padding-top: 6px;
     padding-bottom: 6px;
