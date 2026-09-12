@@ -166,7 +166,7 @@
     </url>
 
     <url>
-        <loc>https://advokat-akhmetov.github.io/site/reestr-nedobrosovestnyh-postavshchikov-kazakhstan.html</loc>
+        <loc>https://advokat-akhmetov.github.io/site/reestr-nedobrosovestnyh-postavshikov-kazakhstan.html</loc>
         <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
@@ -340,6 +340,43 @@
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+</url>
+
+<!-- Дополнительные страницы -->
+
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/education-or-health-code.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/kodeks-zdorovya-ili-zakon-ob-obrazovanii.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/patent-attorney-kazakhstan.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+</url>
+
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/strahovanie-professionalnoy-otvetstvennosti-advokata-kazakhstan.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/zdorove-ili-obrazovanie-chto-vazhnee.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
 </url>
     
 </urlset>
