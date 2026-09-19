@@ -2,12 +2,29 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>https://advokat-akhmetov.github.io/site/</loc>
-        <lastmod>2026-06-25</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.00</priority>
-    </url>
+    <!-- Главная страница — Русский -->
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+</url>
+
+<!-- Главная страница — Қазақша -->
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/kk/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+</url>
+
+<!-- Главная страница — English -->
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/en/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+</url>
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/criminal.html</loc>
