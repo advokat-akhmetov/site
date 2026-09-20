@@ -133,13 +133,29 @@
         <priority>0.90</priority>
     </url>
 
-    <url>
-        <loc>https://advokat-akhmetov.github.io/site/about.html</loc>
-        <lastmod>2026-06-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
+<!-- Об адвокате — Русский -->
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/about.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+</url>
 
+<!-- Об адвокате — Қазақша -->
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/kk/about.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+</url>
+
+<!-- About the Lawyer — English -->
+<url>
+    <loc>https://advokat-akhmetov.github.io/site/en/about.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+</url>
     <url>
         <loc>https://advokat-akhmetov.github.io/site/articles.html</loc>
         <lastmod>2026-06-25</lastmod>
