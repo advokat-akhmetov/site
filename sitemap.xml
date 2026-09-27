@@ -866,5 +866,22 @@
 <url>
   <loc>https://advokat-akhmetov.github.io/site/en/import-contract-kazakhstan.html</loc>
 </url>
+    <!-- Валютный контроль при импорте и экспорте — RU -->
+<url>
+  <loc>https://advokat-akhmetov.github.io/site/currency-control-import-contract-kazakhstan.html</loc>
+  <lastmod>2026-09-28</lastmod>
+</url>
+
+<!-- Валютный контроль при импорте и экспорте — KK -->
+<url>
+  <loc>https://advokat-akhmetov.github.io/site/kk/currency-control-import-contract-kazakhstan.html</loc>
+  <lastmod>2026-09-28</lastmod>
+</url>
+
+<!-- Валютный контроль при импорте и экспорте — EN -->
+<url>
+  <loc>https://advokat-akhmetov.github.io/site/en/currency-control-import-contract-kazakhstan.html</loc>
+  <lastmod>2026-09-28</lastmod>
+</url>
     
 </urlset>
