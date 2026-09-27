@@ -215,7 +215,42 @@
       width:min(1180px,calc(100% - 36px));
       margin:0 auto;
     }
+/* ===== LANGUAGE SWITCHER ===== */
 
+.lang-switcher{
+  display:flex;
+  align-items:center;
+  gap:3px;
+  padding:3px;
+  border:1px solid rgba(212,175,55,.55);
+  border-radius:10px;
+  white-space:nowrap;
+}
+
+.lang-switcher a{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:32px;
+  height:30px;
+  padding:0 6px;
+  border-radius:7px;
+  color:#fff;
+  font-size:12px;
+  font-weight:800;
+  line-height:1;
+}
+
+.lang-switcher a:hover{
+  color:var(--gold);
+}
+
+.lang-switcher a.active{
+  background:var(--gold);
+  color:var(--navy);
+}
+
+/* ===== HEADER ===== */
 
     /* ===== HEADER ===== */
 
@@ -1114,7 +1149,20 @@
         <a href="../patent-attorney-kazakhstan.html">
           IP
         </a>
+<div class="lang-switcher" aria-label="Language selection">
+  <a href="../currency-control-import-contract-kazakhstan.html"
+     lang="ru"
+     hreflang="ru">RU</a>
 
+  <a href="../kk/currency-control-import-contract-kazakhstan.html"
+     lang="kk"
+     hreflang="kk">KZ</a>
+
+  <a href="currency-control-import-contract-kazakhstan.html"
+     class="active"
+     lang="en"
+     hreflang="en">EN</a>
+</div>
         <a class="header-contact"
            href="https://wa.me/77756068541"
            onclick="gtag('event','currency_control_en_header_whatsapp');">
@@ -1162,7 +1210,18 @@
       <a href="../prices.html">
         Legal Fees
       </a>
+<!-- LANGUAGES -->
+<a href="../currency-control-import-contract-kazakhstan.html"
+   lang="ru"
+   hreflang="ru">🇷🇺 RU — Русский</a>
 
+<a href="../kk/currency-control-import-contract-kazakhstan.html"
+   lang="kk"
+   hreflang="kk">🇰🇿 KZ — Қазақша</a>
+
+<a href="currency-control-import-contract-kazakhstan.html"
+   lang="en"
+   hreflang="en">🇬🇧 EN — English</a>
     </nav>
 
   </div>
