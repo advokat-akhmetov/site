@@ -730,7 +730,7 @@
 
     <url>
         <loc>https://advokat-akhmetov.github.io/site/vzyskanie-dolga-kazakhstan.html</loc>
-        <lastmod>2026-06-25</lastmod>
+        <lastmod>2026-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
@@ -969,5 +969,17 @@
         <loc>https://advokat-akhmetov.github.io/site/en/reestr-ktp-kazakhstan.html</loc>
         <lastmod>2026-10-03</lastmod>
     </url>
+<url>
+  <loc>https://advokat-akhmetov.github.io/site/kk/vzyskanie-dolga-kazakhstan.html</loc>
+  <lastmod>2026-10-03</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
 
+<url>
+  <loc>https://advokat-akhmetov.github.io/site/en/debt-recovery-kazakhstan.html</loc>
+  <lastmod>2026-10-03</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
 </urlset>
