@@ -1,0 +1,45 @@
+name: IndexNow
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.html'
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Submit changed pages to IndexNow
+        shell: bash
+        run: |
+          KEY="a7e4b4f3dc4a488499536d1cd2516268"
+          SITE="https://advokat-akhmetov.github.io/site"
+
+          git diff --name-only HEAD^ HEAD \
+            | grep -E '\.html$' \
+            | while read -r file; do
+
+              if [ "$file" = "index.html" ]; then
+                URL="$SITE/"
+              else
+                URL="$SITE/$file"
+              fi
+
+              echo "Submitting: $URL"
+
+              curl --fail-with-body \
+                --get "https://api.indexnow.org/indexnow" \
+                --data-urlencode "url=$URL" \
+                --data-urlencode "key=$KEY" \
+                --data-urlencode "keyLocation=$SITE/$KEY.txt"
+
+              echo
+            done
