@@ -50,21 +50,63 @@ gtag('config', 'G-W2QCFZ788H');
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LegalService",
-  "@id": "https://advokat-akhmetov.github.io/site/#legalservice",
-  "name": "Адвокат Ахметов Канат Темергазыевич",
-  "url": "https://advokat-akhmetov.github.io/site/",
-  "logo": "https://advokat-akhmetov.github.io/site/logo.png?v=40",
-  "image": "https://advokat-akhmetov.github.io/site/logo.png?v=40",
-  "description": "Юридическая помощь и адвокатская защита в Республике Казахстан.",
-  "telephone": "+77756068541",
-  "email": "advokat.kz01@gmail.com",
-  "areaServed": {
-    "@type": "Country",
-    "name": "Kazakhstan"
-  },
-  "sameAs": [
-    "https://www.instagram.com/advokat.kz01"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://advokat-akhmetov.github.io/site/#person",
+      "name": "Ахметов Канат Темергазыевич",
+      "url": "https://advokat-akhmetov.github.io/site/about.html",
+      "image": "https://advokat-akhmetov.github.io/site/logo.png?v=40",
+      "jobTitle": "Адвокат Республики Казахстан",
+      "description": "Адвокат Республики Казахстан, патентный поверенный. Судебная защита, уголовные и гражданские дела, сопровождение бизнеса, инвестиций, государственных закупок и внешнеэкономической деятельности.",
+      "email": "mailto:advokat.kz01@gmail.com",
+      "telephone": "+77756068541",
+      "sameAs": [
+        "https://www.instagram.com/advokat.kz01"
+      ],
+      "knowsAbout": [
+        "Уголовное право",
+        "Гражданское право",
+        "Судебное представительство",
+        "Государственные закупки",
+        "Интеллектуальная собственность",
+        "Таможенное право",
+        "Внешнеэкономическая деятельность",
+        "Инвестиционные проекты",
+        "Строительное право"
+      ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://advokat-akhmetov.github.io/site/#legalservice",
+      "name": "Адвокат Ахметов Канат Темергазыевич",
+      "url": "https://advokat-akhmetov.github.io/site/",
+      "logo": "https://advokat-akhmetov.github.io/site/logo.png?v=40",
+      "image": "https://advokat-akhmetov.github.io/site/logo.png?v=40",
+      "description": "Адвокатская защита и юридическое сопровождение граждан, предпринимателей, компаний и инвесторов в Республике Казахстан.",
+      "telephone": "+77756068541",
+      "email": "advokat.kz01@gmail.com",
+      "founder": {
+        "@id": "https://advokat-akhmetov.github.io/site/#person"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Kazakhstan"
+      },
+      "sameAs": [
+        "https://www.instagram.com/advokat.kz01"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://advokat-akhmetov.github.io/site/#website",
+      "url": "https://advokat-akhmetov.github.io/site/",
+      "name": "Адвокат Ахметов Канат Темергазыевич",
+      "inLanguage": "ru-KZ",
+      "publisher": {
+        "@id": "https://advokat-akhmetov.github.io/site/#person"
+      }
+    }
   ]
 }
 </script>
